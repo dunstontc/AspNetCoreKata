@@ -24,13 +24,6 @@ namespace AspNetCoreKata.Controllers
 
             return View();
         }
-        
-        public IActionResult Products()
-        {
-            var prods = _repo.GetAllProducts();
-
-            return View(prods);
-        }
 
         public IActionResult Error()
         {
