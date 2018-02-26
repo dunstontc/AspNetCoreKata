@@ -12,30 +12,24 @@ namespace AspNetCoreKata.Controllers
     {
         private readonly IProductRepo _repo;
         
-        public HomeController(IProductRepo repo)
-        {
-            _repo = repo;
-        }
-        
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public HomeController(IProductRepo repo) => _repo = repo;
 
-        public IActionResult About()
-        {
-            var prod = _repo.GetProductWithId(2);
-            
-            ViewData["Message"] = $"Your product name is: {prod.Name}";
+        public IActionResult Index() => View();
 
-            return View();
-        }
+        public IActionResult About() => View();
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Web Design & Application/Service Development";
 
             return View();
+        }
+        
+        public IActionResult Products()
+        {
+            var prods = _repo.GetAllProducts();
+
+            return View(prods);
         }
 
         public IActionResult Error()
