@@ -7,5 +7,9 @@ namespace AspNetCoreKata.ProductRepository
         Product GetProductWithId(int id);
 
         IEnumerable<Product> GetAllProducts();
+
+        void DeleteProduct(int id);
+        
+        void UpdateProduct(int id, string name);
     }
 }
