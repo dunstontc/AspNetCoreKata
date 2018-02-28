@@ -13,4 +13,13 @@
   <ItemGroup>
     <ProjectReference Include="..\AspNetCoreKata.ProductRepository\AspNetCoreKata.ProductRepository.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="wwwroot\lib\bootstrap\assets\img\favicons\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\lib\bootstrap\assets\img\favicons\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="wwwroot\lib\bootstrap\assets\img\favicons\**" />
+  </ItemGroup>
 </Project>

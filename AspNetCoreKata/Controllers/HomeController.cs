@@ -18,13 +18,6 @@ namespace AspNetCoreKata.Controllers
 
         public IActionResult About() => View();
 
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Web Design & Application/Service Development";
-
-            return View();
-        }
-
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
