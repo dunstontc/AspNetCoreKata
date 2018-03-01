@@ -10,10 +10,6 @@ namespace AspNetCoreKata.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IProductRepo _repo;
-        
-        public HomeController(IProductRepo repo) => _repo = repo;
-
         public IActionResult Index() => View();
 
         public IActionResult About() => View();
