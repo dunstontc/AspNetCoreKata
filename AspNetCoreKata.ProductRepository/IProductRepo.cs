@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using AspNetCoreKata.Shared;
 
 namespace AspNetCoreKata.ProductRepository
 {

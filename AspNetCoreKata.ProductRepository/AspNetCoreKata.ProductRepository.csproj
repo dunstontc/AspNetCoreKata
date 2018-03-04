@@ -5,4 +5,10 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.50.4" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreKata.Shared\AspNetCoreKata.Shared.csproj">
+      <Project>{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}</Project>
+      <Name>AspNetCoreKata.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

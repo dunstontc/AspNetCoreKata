@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AspNetCoreKata.ProductRepository
+namespace AspNetCoreKata.Shared
 {
     public class Product
     {

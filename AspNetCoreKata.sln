@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreKata", "AspNetCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreKata.ProductRepository", "AspNetCoreKata.ProductRepository\AspNetCoreKata.ProductRepository.csproj", "{02DC54A8-6CB4-49EB-8852-22E3656DFAC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreKata.Shared", "AspNetCoreKata.Shared\AspNetCoreKata.Shared.csproj", "{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02DC54A8-6CB4-49EB-8852-22E3656DFAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02DC54A8-6CB4-49EB-8852-22E3656DFAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DC54A8-6CB4-49EB-8852-22E3656DFAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821088AC-12FA-4024-8FDF-FCBEDE4D0F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
